@@ -78,6 +78,16 @@
   padding: 5rem 0;
 }
 
+.table th,
+.table td {
+  text-align: left;
+  padding: 1rem;
+}
+
+.table th {
+  background: #f4f4f4;
+}
+
 .container {
   margin: auto;
   max-width: 1100px;
@@ -142,6 +152,7 @@
 
 .btn {
   display: inline-block;
+  font: inherit;
   margin-right: 0.5rem;
   outline: 0;
   border: 0;
@@ -300,6 +311,37 @@
   font-size: 1.07rem;
   border: 1px solid #8d8d8d;
   border-radius: 4px;
+}
+
+.form .social-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form .social-input i {
+  font-size: 2.5rem;
+  width: 4rem;
+}
+
+.form .social-input i.fa-twitter {
+  color: #38a1f3;
+}
+
+.form .social-input i.fa-facebook {
+  color: #3b5998;
+}
+
+.form .social-input i.fa-instagram {
+  color: #3f729b;
+}
+
+.form .social-input i.fa-youtube {
+  color: #c4302b;
+}
+
+.form .social-input i.fa-linkedin {
+  color: #0077b5;
 }
 
 * {

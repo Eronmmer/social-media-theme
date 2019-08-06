@@ -21,4 +21,29 @@
     border: 1px solid rgb(141, 141, 141);
     border-radius: 4px;
   }
+
+  .social-input {
+    display: flex;
+
+    i {
+      font-size: 2.5rem;
+      width: 4rem;
+
+      &.fa-twitter {
+        color: #38a1f3;
+      }
+      &.fa-facebook {
+        color: #3b5998;
+      }
+      &.fa-instagram {
+        color: #3f729b;
+      }
+      &.fa-youtube {
+        color: #c4302b;
+      }
+      &.fa-linkedin {
+        color: #0077b5;
+      }
+    }
+  }
 }

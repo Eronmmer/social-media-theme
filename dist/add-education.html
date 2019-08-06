@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Welcome to DevConnector</title>
+</head>
+
+<body>
+  <nav class="navbar bg-dark">
+    <h1>
+      <a href="index.html"> <i class="fa fa-code"></i> DevConnector </a>
+    </h1>
+    <ul>
+      <li><a href="profiles.html">Developers</a></li>
+      <li><a href="posts.html">Posts</a></li>
+      <li><a href="dashboard.html"><i class="fa fa-user"></i> Dashboard</a></li>
+      <li><a href="login.html"><i class="fa fa-sign-out"></i> Logout</a></li>
+    </ul>
+  </nav>
+  <section class="container">
+    <h1 class="large text-primary">Add Your Education</h1>
+    <p class="lead"><i class="fa fa-graduation-cap"></i>Add any School, Bootcamp etc you've attended before</p>
+
+    <form action="dashboard.html" class="form">
+      <div class="form-group">
+        <input type="text" placeholder="*Name of school or bootcamp" required>
+      </div>
+
+      <div class="form-group">
+        <input type="text" placeholder="*Field of Study" required>
+      </div>
+
+      <div class="form-group">
+        <label for="start-date"><strong>*Start Date</strong></label>
+        <input type="date" name="begin-date" required>
+        <div class="form-text">When did you start studying there? e.g March 2011</div>
+      </div>
+      
+      <div class="form-group">
+        <label for="current-study">You still study there?</label>
+        <input type="checkbox" name="current-study" id="current-study">
+      </div>
+      
+      <div class="form-group">
+        <label for="end-date"><strong>End Date</strong></label>
+        <input type="date" name="end-date" id="end-date">
+        <div class="form-text">When did you graduate? e.g March 2015</div>
+      </div>
+      
+      <div class="form-group">
+        <textarea name="description" placeholder="Description"></textarea>
+        <div class="form-text">Tell us a little about your what you studied</div>
+      </div>
+
+      <input class="btn btn-primary my-1" type="submit" value="Submit">
+      <a href="dashboard.html" class="btn btn-light my-1">Go Back</a>
+    </form>
+  </section>
+</body>
+
+</html>
